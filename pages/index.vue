@@ -59,7 +59,7 @@
                                 <div class="ml-4">
                                     <h4 class="text-lg leading-6 font-medium text-gray-900">Best in class</h4>
                                     <p class="mt-2 text-base leading-6 text-gray-500">
-                                        MailGuardian works as a management platform on top of popular and stable open-source tools like MailScanner and SpamAssassin. By building on top of these great tools, we make it possible to easily customize and extend your system to suit your specific needs.
+                                        By building on top of these great tools, we make it possible to easily customize and extend your system to suit your specific needs.
                                     </p>
                                 </div>
                             </div>
@@ -85,8 +85,8 @@
                             <div class="flex">
                                 <div class="flex-shrink-0">
                                     <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" stroke="none">
+                                            <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path>
                                         </svg>
                                     </div>
                                 </div>
@@ -136,8 +136,8 @@
                             <div class="flex">
                                 <div class="flex-shrink-0">
                                     <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" stroke="none">
+                                            <path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                         </svg>
                                     </div>
                                 </div>
