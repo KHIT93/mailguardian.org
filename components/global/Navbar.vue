@@ -73,9 +73,9 @@
 <script>
 export default {
     data() {
-        return{
+        return {
             mobileMenuOpen: false
         }
-    }
+    },
 }
 </script>
