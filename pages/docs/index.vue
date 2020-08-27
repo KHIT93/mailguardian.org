@@ -8,7 +8,7 @@
                             <h5 class="mb-3 lg:mb-2 uppercase tracking-wide font-bold text-sm lg:text-xs text-gray-500">{{ category.name }}</h5>
                             <ul>
                                 <li class="mb-3 lg:mb-1" v-for="article in category.nodes" :key="article.title">
-                                    <nuxt-link :to="'/docs/' + article.slug" class="px-2 -mx-2 py-1 transition duration-200 ease-in-out relative block text-gray-600 font-medium">
+                                    <nuxt-link :to="'/docs/' + article.slug" class="px-2 -mx-2 py-1 transition duration-200 ease-in-out relative block text-gray-600 hover:text-gray-900 font-medium">
                                         <span class="rounded absolute inset-0 bg-blue-200 opacity-0"></span>
                                         <span class="relative">{{ article.title }}</span>
                                     </nuxt-link>
@@ -22,7 +22,27 @@
             <div class="min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5">
                 <div class="flex">
                     <div class="pb-16 w-full pt-12">
-                        Test
+                        <div class="prose-sm">
+                            <h1>Welcome</h1>
+                            <p>
+                                Feel free to browse the documentation articles as you please, or read below to find out where to get started
+                            </p>
+                            <h2>Getting started</h2>
+                            <p>
+                                The fastest way to get started is to follow our <nuxt-link class="font-semibold underline" to="/docs/quickstart">quick start guide</nuxt-link> under the <strong>Getting Started</strong> section<br/>
+                                Do not be afraid, as we promise you, it is very easy and quick to get started
+                            </p>
+                            <p>
+                                If you want to know what actually happens under the hood of the quick start installation script, then feel free to look at the articles in the <strong>Installation</strong> section<br/>
+                                Those articles will explain what happens where and what we configure for you<br/>
+                                They will also learn you how to customize certain aspects of the installation
+                            </p>
+                            <h2>Still work-in-progress :(</h2>
+                            <p>
+                                While we would really prefer to have a finished and ready to use documentation, the current one is the base for the future and is subject to change<br/>
+                                Until finished, we will continue to update individual sections
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -33,7 +53,7 @@
 <script>
 export default {
     async asyncData({ $content }) {
-        let articles = await $content('docs').sortBy('category_order').fetch();
+        let articles = await $content('docs').sortBy('category_order').sortBy('article_order').fetch();
         let categories = await $content('docs').sortBy('category_order').only(['category', 'category_order']).fetch();
         let data = {};
         await categories.forEach(element => {

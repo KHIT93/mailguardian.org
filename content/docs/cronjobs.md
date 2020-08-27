@@ -2,7 +2,8 @@
 title: Cron jobs
 description: Find out which cron jobs MailGuardian runs and how to customize their timings
 category: Advanced
-category_order: 3
+category_order: 5
+article_order: 0
 ---
 
 ## Custom cronjob timing

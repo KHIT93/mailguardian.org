@@ -3,6 +3,7 @@ title: Supported browsers
 description: Learn what browsers are supported for use with MailGuardian
 category: Prerequisites
 category_order: 2
+article_order: 0
 ---
 # Supported browsers
 

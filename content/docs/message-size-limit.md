@@ -2,7 +2,8 @@
 title: Increase Message size limit
 description: Find out how to increase the limit on how large messages should be before MailGuardian will not scan them
 category: Advanced
-category_order: 3
+category_order: 5
+article_order: 0
 ---
 
 ## Increasing the size limit for when message scan is skipped

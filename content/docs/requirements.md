@@ -3,6 +3,7 @@ title: System requirements
 description: Learn what is needed to run MailGuardian on your system
 category: Prerequisites
 category_order: 2
+article_order: 0
 ---
 ## Hardware
 

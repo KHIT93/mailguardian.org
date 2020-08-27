@@ -2,7 +2,8 @@
 title: Missing transport logs
 description: Here is some help for how to troubleshoot the missing transport log data in the application
 category: Troubleshooting
-category_order: 4
+category_order: 10
+article_order: 0
 ---
 
 ## Transport log data is not populating on messages

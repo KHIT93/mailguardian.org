@@ -3,6 +3,7 @@ title: SMTP over TLS
 description: Learn how to manually configure SMTP over TLS
 category: Advanced
 category_order: 3
+article_order: 0
 ---
 
 ## SMTP using STARTTLS

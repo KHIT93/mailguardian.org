@@ -8,7 +8,7 @@
                             <h5 class="mb-3 lg:mb-2 uppercase tracking-wide font-bold text-sm lg:text-xs text-gray-500">{{ category.name }}</h5>
                             <ul>
                                 <li class="mb-3 lg:mb-1" v-for="article in category.nodes" :key="article.title">
-                                    <nuxt-link :to="'/docs/' + article.slug" class="px-2 -mx-2 py-1 transition duration-200 ease-in-out relative block text-gray-600 font-medium">
+                                    <nuxt-link :to="'/docs/' + article.slug" class="px-2 -mx-2 py-1 transition duration-200 ease-in-out relative block text-gray-600 hover:text-gray-900 font-medium">
                                         <span class="rounded absolute inset-0 bg-blue-200 opacity-0"></span>
                                         <span class="relative">{{ article.title }}</span>
                                     </nuxt-link>
@@ -33,7 +33,7 @@
 <script>
 export default {
     async asyncData({ $content, params }) {
-        let articles = await $content('docs').sortBy('category_order').fetch();
+        let articles = await $content('docs').sortBy('category_order').sortBy('article_order').fetch();
         let categories = await $content('docs').sortBy('category_order').only(['category', 'category_order']).fetch();
         let data = {};
         await categories.forEach(element => {
