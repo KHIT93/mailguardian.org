@@ -11,7 +11,8 @@ module.exports = {
     require('@tailwindcss/ui'),
   ],
   future: {
-    removeDeprecatedGapUtilities: true
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
   },
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
