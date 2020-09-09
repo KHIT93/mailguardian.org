@@ -42,6 +42,7 @@
 
 <script>
 export default {
+    fetchOnServer: false,
     data() {
         return {
             releases: []
