@@ -42,22 +42,17 @@
 
 <script>
 export default {
-    methods: {
-        async fetch() {
-            let releases = [];
-            await axios.get('https://api.github.com/repos/khit93/mailguardian/releases').then(response => {
-                releases = response.data;
-            }).catch(error => {
-                console.log(error.response.data);
-            });
-            return releases;
-        },
-    },
-    async asyncData({ $axios }) {
-        let releases = await $axios.$get('https://api.github.com/repos/khit93/mailguardian/releases');
+    data() {
         return {
-            releases
-        };
+            releases: []
+        }
+    },
+    async fetch() {
+        await this.$axios.get('https://api.github.com/repos/khit93/mailguardian/releases').then(response => {
+            this.releases = response.data;
+        }).catch(error => {
+            console.log(error.response.data);
+        });
     }
 }
 </script>
