@@ -162,12 +162,12 @@
                 </h2>
                 <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
                     <div class="inline-flex rounded-md shadow">
-                        <nuxt-link to="/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        <nuxt-link to="/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:ring transition duration-150 ease-in-out">
                         Get started
                         </nuxt-link>
                     </div>
                     <div class="ml-3 inline-flex rounded-md shadow">
-                        <nuxt-link to="/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-600 bg-white hover:text-blue-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                        <nuxt-link to="/" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-blue-600 bg-white hover:text-blue-500 focus:outline-none focus:ring transition duration-150 ease-in-out">
                         Learn more
                         </nuxt-link>
                     </div>

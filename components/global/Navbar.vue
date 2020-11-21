@@ -28,7 +28,7 @@
         </div>
         <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" v-show="mobileMenuOpen">
             <div class="rounded-lg shadow-lg">
-                <div class="rounded-lg shadow-xs bg-white divide-y-2 divide-gray-50">
+                <div class="rounded-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                     <div class="pt-2 pb-6 px-2 space-y-6">
                         <div class="flex items-center justify-between">
                             <nuxt-link to="/">
