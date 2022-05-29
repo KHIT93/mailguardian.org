@@ -7,9 +7,9 @@ article_order: 0
 ---
 # Supported browsers
 
-- Microsoft Edge 12 or newer
-- Mozilla Firefox 21 or newer
-- Google Chrome 23 or newer
-- Apple Safari 6 or newer for macOS/OSX
-- Android 7 or newer
-- iOS 10 or newer
+- Microsoft Edge 87 or newer
+- Mozilla Firefox 83 or newer
+- Google Chrome 87 or newer
+- Apple Safari 14 or newer for macOS/OSX
+- Android 10 or newer
+- iOS 14 or newer

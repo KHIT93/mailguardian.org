@@ -37,10 +37,9 @@
                                 Those articles will explain what happens where and what we configure for you<br/>
                                 They will also learn you how to customize certain aspects of the installation
                             </p>
-                            <h2>Still work-in-progress :(</h2>
+                            <h2>For V2 only</h2>
                             <p>
-                                While we would really prefer to have a finished and ready to use documentation, the current one is the base for the future and is subject to change<br/>
-                                Until finished, we will continue to update individual sections
+                                We are still working to finish the last pieces in our documentation and aim to have it finished for release of V2
                             </p>
                         </div>
                     </div>
