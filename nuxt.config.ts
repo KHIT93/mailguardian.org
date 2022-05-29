@@ -6,5 +6,10 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@nuxtjs/tailwindcss',
         '@vueuse/nuxt'
-    ]
+    ],
+    content: {
+        highlight: {
+            theme: 'dracula'
+        }
+    }
 })

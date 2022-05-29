@@ -20,7 +20,8 @@
                         Pre release
                     </p>
                     <div class="text-gray-900 font-bold text-xl mb-2">{{ release.name }}</div>
-                    <VueShowdown class="text-gray-700 text-base prose-sm max-h-24 truncate" :markdown="release.body" />
+                    <!-- <VueShowdown class="text-gray-700 text-base prose-sm max-h-24 truncate" :markdown="release.body" /> -->
+                    <ContentRenderer class="text-gray-700 text-base prose-sm max-h-24 truncate" :value="release.body" />
                     <!-- <p class="text-gray-700 text-base">{{ release.body }}</p> -->
                 </div>
                 <div class="flex items-center pt-4">
@@ -40,19 +41,6 @@
     </div>
 </template>
 
-<script>
-export default {
-    data() {
-        return {
-            releases: []
-        }
-    },
-    async fetch() {
-        await this.$axios.get('https://api.github.com/repos/khit93/mailguardian/releases').then(response => {
-            this.releases = response.data;
-        }).catch(error => {
-            console.log(error.response.data);
-        });
-    }
-}
+<script setup>
+const { data: releases } = await useFetch('https://api.github.com/repos/khit93/mailguardian/releases')
 </script>
