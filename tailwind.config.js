@@ -1,30 +1,12 @@
-/*
-** TailwindCSS Configuration File
-**
-** Docs: https://tailwindcss.com/docs/configuration
-** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-*/
+const colors = require('tailwindcss/colors')
+
 module.exports = {
-  theme: {},
-  variants: {},
+  darkMode: 'class',
   plugins: [
-    require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
     require('@tailwindcss/aspect-ratio'),
   ],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
-  },
-  purge: {
-    // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
-    enabled: process.env.NODE_ENV === 'production',
-    content: [
-      'components/**/*.vue',
-      'layouts/**/*.vue',
-      'pages/**/*.vue',
-      'plugins/**/*.js',
-      'nuxt.config.js'
-    ]
-  }
+  content: ['content/**/*.{md,yml,json,json5,csv}'],
+  theme: {}
 }
