@@ -1,6 +1,6 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from 'nuxt/config'
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/guide/directory-structure/nuxt.config
 export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
