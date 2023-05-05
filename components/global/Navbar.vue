@@ -22,6 +22,9 @@
                     <nuxt-link to="/docs" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                         Docs
                     </nuxt-link>
+                    <a href="https://github.com/khit93/mailguardian/issues" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        Support
+                    </a>
                 </nav>
                 <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0"></div>
             </div>
@@ -61,6 +64,15 @@
                                         Docs
                                     </div>
                                 </nuxt-link>
+
+                                <a href="https://github.com/khir93/mailguardian/issues" class="p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                                    </svg>
+                                    <div class="text-base leading-6 font-medium text-gray-900">
+                                        Docs
+                                    </div>
+                                </a>
                             </nav>
                         </div>
                     </div>
